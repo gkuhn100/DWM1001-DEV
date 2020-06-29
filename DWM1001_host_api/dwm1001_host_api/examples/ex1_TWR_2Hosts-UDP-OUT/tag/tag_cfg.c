@@ -26,6 +26,7 @@ int main(void)
   dwm_init();
 
   HAL_Print("Setting to tag: dev%d.\n", HAL_DevNum());
+  HAL_Print("Hello world\n");
   cfg_tag.low_power_en = 0;
   cfg_tag.meas_mode = DWM_MEAS_MODE_TWR;
   cfg_tag.loc_engine_en = 1;
