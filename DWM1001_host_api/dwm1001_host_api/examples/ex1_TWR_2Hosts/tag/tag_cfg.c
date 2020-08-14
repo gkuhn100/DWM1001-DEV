@@ -35,6 +35,7 @@ int main(void)
    dwm_cfg_tag_set(&cfg_tag);
 
    HAL_Print("Wait 2s for node to reset.\n");
+   HAL_Print("Suck my Dick!.\n");
    HAL_Delay(2000);
    dwm_cfg_get(&cfg_node);
 
