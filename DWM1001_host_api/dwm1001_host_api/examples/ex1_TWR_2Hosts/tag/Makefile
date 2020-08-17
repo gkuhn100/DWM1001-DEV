@@ -36,6 +36,7 @@ PRINT_LVL = 3
 
 PROGRAM = tag_cfg
 SOURCES = tag_cfg.c
+          test1.c
 
 PROJ_DIR += ../../..
 
